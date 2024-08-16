@@ -1,0 +1,55 @@
+/* poosition static\\ sticky  \\fixed*/
+
+body {
+    margin: 0;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    padding: 24px 0;
+    background-color: blue;
+    text-align: center;
+    top: 10px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+    background-color: brown;
+    bottom: 0;
+    right: -10px;
+
+}
+
+.relative {
+    position: relative;
+    background-color: aqua;
+    top: 50px;
+    right: 50px;
+
+}
+
+.relative-child {
+    position: fixed;
+    background-color: blueviolet;
+    top: 100px;
+    left: 50px;
+
+}
+
+.absolute {
+    position: absolute;
+    background-color: orangered;
+    /* top: 100px; */
+    right: 0;
+    bottom: 10px;
+}
