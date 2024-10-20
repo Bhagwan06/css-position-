@@ -23,6 +23,13 @@ body {
     align-items: center;
 }
 
+
+.static {
+    /* Static position - No special positioning applied */
+    position: static; /* This is the default, so you could also omit this line */
+    background-color: lightcoral; /* Different background color for visibility */
+}
+
 .fixed {
     position: fixed;
     background-color: brown;
