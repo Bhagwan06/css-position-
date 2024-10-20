@@ -59,7 +59,7 @@ This project demonstrates different CSS positioning techniques, including static
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/bhagwan06/css-positioning-.git
+    git clone https://github.com/bhagwan06/css-position-.git
     ```
 2. Open `index.html` in your browser to view the demo of various CSS positions.
 
